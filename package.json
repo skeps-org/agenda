@@ -12,6 +12,7 @@
     "node": ">=12.9.0"
   },
   "scripts": {
+    "prepare": "npm run build",
     "prepublishOnly": "npm run build",
     "build": "tsc",
     "pretest": "npm run build",
